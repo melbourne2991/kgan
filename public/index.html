@@ -1,0 +1,138 @@
+<!doctype html>
+<html data-ng-app="app">
+	<head>
+		<title>Hello Kogan</title>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'> -->
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/app.css">
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/lodash/dist/lodash.js"></script>
+		<script src="bower_components/masonry/dist/masonry.pkgd.js"></script>
+		<script src="bower_components/imagesloaded/imagesloaded.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/angular-masonry/angular-masonry.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper" class="row">
+			<div class="container" id="header">
+				<h1>Welcome (Ruslan?) Kogan</h1>
+				<h2>Here's why you should hire me</h2>
+			</div>
+
+			<div class="container" id="usps" data-usps="">
+				<div class="row">
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="1">
+							<h3>An insatiable appetite for knowledge</h3>
+							<div class="full">
+								<p>
+								I started learning graphic design and web development when I was about 16 or so (back when tables were still a thing), and I don't plan to stop any time soon. Given I have no prior plans, I will spend <strong>3-5 hours</strong> each day working on my own personal projects (currently learning game development with <a href="http://phaser.io/" target="_blank">Phaser</a>).  I am constantly reading up on both tech and web development, at lunchtime, on the toilet, in the car, on the train...you name it.
+								</p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="2">
+							<h3>I care about my (your) product</h3>
+							<div class="full">
+								<p>I hate writing crappy code and avoid it like the plague. I care a lot about what I put out there. Admittedly in the real world we don't always have the opportunity write perfect code every time, but I'm looking for a company that at least <strong>understands</strong> the value of top notch code. </p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="3">
+							<h3>I have an eye for design</h3>
+							<div class="full">
+								<p>I started out with graphic design before I moved into web development. I have a deep appreciation for <strong>sound UI principles and elegant design</strong>, as well as the utmost respect for the designers that make them happen.</p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="4">
+							<h3>Proactive & Innovative</h3>
+							<div class="full">
+								<p>I made this site didn't I? I've always had a wild imagination, I love new ideas and solving problems in interesting ways. I like to take an active interest in the business I am part of. I try to put myself in the shoes of upper management, asking myself how I might tackle high level challenges. If I think I have something worth contributing, I'm not afraid to make myself heard.</p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="5">
+							<h3>I'm A Marketer too!</h3>
+							<div class="full">
+								<p>
+									Well not quite yet, however I am studying a double degree at Monash - Business(Marketing) and Arts(Psychology, English). I feel that marketing and IT are becoming increasingly intertwined and having an understanding of both empowers me to discover opportunities that others might miss.
+								</p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12-24 col-24-24">
+						<div class="box" data-usp="6">
+							<h3>I can code damnit!</h3>
+							<div class="full">
+								<p>
+									I left this one til last because I believe my <a href="http://github.com/melbourne2991" target="_blank">GitHub account</a> speaks for itself. There are also a couple of examples of my work you will find below. I also put this little site together of course (<strong>built in Angular</strong>), it was a bit of a rush job - I know Nitin wanted me to get this over to you fast, however the code isn't terrible so feel free to check the source. 
+								</p>
+								<span class="button"><span data-close="">Close</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container row">
+				<div class="col-24-24">
+					<p class="fine-print inner-pad">*If the reasons above just don't hit the mark I have a couple more for you: <strong>(a)</strong> I have heard you will be attending one of my digital marketing lectures and I will make sure to embarass you by asking why I didn't get the job (just kidding), <strong>(b)</strong> my mother has a kogan brand phone (she loves it) and will make you some of her delicious french crepes.</p>
+				</div>
+			</div>
+
+			<div class="container row">
+				<div class="col-24-24">
+					<h2>Technically speaking...</h2>
+					<div id="techs">
+						<ul class="tick-list">
+							<li><span class="tick">&#10004;</span><h4>Javascript Gun - Frontend/Backend</h4>
+								<p>I have worked with node, angular, backbone, jquery, jqueryui and lodash (underscore's baby brother). At my current role I have built a number of production apps - a Zendesk app for managing rewards, an administration app for a store locator and a number of event management applications. </p>
+							</li>
+							<li><span class="tick">&#10004;</span><h4>Sass, Less, Jade, Haml</h4> 
+								<p>Preprocessors are awesome, I tend to work with Sass more so than the other three but will use them occassionally depending on the task at hand</p>
+							</li>
+							<li><span class="tick">&#10004;</span><h4>CSS Frameworks</h4>	
+								I used to use Bootstrap, I then moved on to Foundation, these days I tend to use my own css as I find most frameworks are too heavy weight for what needs to be done. That said I am perfectly happy using css frameworks if it means providing consistency across a team.
+							</li>
+							<li><span class="tick">&#10004;</span><h4>Grunt / Gulp</h4>	
+								I use grunt primarily for minifying and compiling assets, and running unit tests. Just started delving into Gulp.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="container row">
+				<div class="col-24-24">
+					<h2>A few things I'm working on</h2>
+					<div class="align-center">Coming soon... for now please check out <a href="/angbone" target="_blank">Angles N Bones</a> A niche job board I am building for javascript developers. Currently hooking into Indeed.com's api to grab results, but will be building submissions and profiles soon.</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>

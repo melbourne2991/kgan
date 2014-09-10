@@ -1,0 +1,117 @@
+#wrapper {
+	@include container();
+	padding-bottom: 100px;
+}
+
+#header {
+	text-align: center;
+	h1,h2,h3 {
+		line-height: 1
+	}
+}
+
+
+
+#usps {
+	position: relative;
+	margin-top: 50px;	
+	margin-bottom: 20px;
+}
+
+.box {
+	text-align: center;
+	background: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #C5C5C5;
+	background: #fff;
+	padding: 30px 40px;
+	transition: transform 300ms ease-in, width 200ms ease-in, opacity 200ms ease-in;
+	p {
+		margin-top: 0px;
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&:hover {
+		background: darken(#fff, 5%);
+		cursor: pointer;
+	}
+
+	&.fadeOut {
+		opacity: 0;
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 5px;
+		transition: all .3s;
+		display: inline-block;
+	}
+
+	.full {
+		text-align: left;
+		display: none;
+		padding-top: 30px;
+		&.show {
+			display: block;
+		}
+	}
+}
+
+.button {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	span {
+		display: inline-block;
+		background: #DD4242;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: bolder;
+		line-height: 1;
+	}
+}
+
+.fine-print {
+	font-size: 13px;
+	color: lighten(#000, 30%);
+	line-height: 1.5;
+}
+
+.inner-pad {
+	padding: 0 70px;
+}
+
+.tick-list {
+	li {
+		padding-left: 50px;
+		position: relative;
+	}
+
+	.tick {
+		font-size: 2em;
+		position: absolute;
+		left: 0;
+		line-height: 1;
+		display: inline-block;
+		color: #dd4242;
+	}
+
+	h4 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+		line-height: 1;
+		color: #dd4242;
+	}
+
+	p {
+		line-height: 1.5;
+	}
+}
